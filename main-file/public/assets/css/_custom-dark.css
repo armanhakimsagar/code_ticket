@@ -1,0 +1,30 @@
+.custom-login {
+    background: var(--bs-dark);
+}
+.custom-login .navbar {
+    background: var(--bs-dark);
+   
+}
+.custom-login .navbar .nav-link {
+   
+    color: var(--bs-white);
+}
+.custom-login .navbar .nav-item .nav-link::after {
+  
+    background: var(--bs-white);
+}
+.custom-login .drp-language a {
+    color: #808191;
+}
+.custom-login .drp-language .btn {
+    background: #292a33;
+}
+.custom-login .drp-language .drp-text {
+    color: var(--bs-green);
+}
+.custom-login .drp-language .btn.show {
+    border-color: transparent;
+}
+.custom-login .navbar .navbar-toggler-icon {
+    filter: invert(1);
+}

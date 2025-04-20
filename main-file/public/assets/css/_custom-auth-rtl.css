@@ -1,0 +1,30 @@
+.custom-login .bg-login {
+    right: 70%;
+    left: 0;
+}
+.custom-login .card {
+    margin-right: auto;
+    margin-left: 0;
+}
+.custom-login .custom-wrapper .card .card-body {
+    margin-right: auto;
+    margin-left:0;
+}
+.custom-login .card .custom-img img {
+    margin-left: 0;
+    margin-right: auto;
+
+}
+.custom-login .navbar .nav-item .nav-link::after {
+    right: auto;
+    left: 0;
+}
+@media only screen and (max-width: 1199px){
+    .custom-login .custom-wrapper .card .card-body {
+        margin: auto;
+    }
+    .custom-login .card {
+        margin: auto;
+        width: auto;
+    }
+}
